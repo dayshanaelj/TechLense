@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inspiring Video Collection</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    section {
+      background: white;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      display: block;
+      margin: 10px auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Inspiring Video Collection</h1>
+    <p>Explore a curated selection of videos designed to motivate, educate, and spark creativity.</p>
+
+    <section>
+      <h2>Creative Thinking</h2>
+      <p>Learn how to unlock your creativity and approach problems from new perspectives.</p>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/3kGx1yF1cYc" 
+        title="Creative Thinking Video"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Success Mindset</h2>
+      <p>Discover the habits and mindset that can help you achieve your goals.</p>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/wnHW6o8WMas" 
+        title="Success Mindset Video"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Learning Strategies</h2>
+      <p>Improve how you learn with proven techniques backed by science.</p>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/O96fE1E-rf8" 
+        title="Learning Strategies Video"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+  </main>
+
+</body>
+</html>
